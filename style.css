@@ -1,0 +1,127 @@
+header{
+    position: top;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+.leftHeader{
+    margin-right: auto;
+}
+.rightHeader{
+    margin-left: auto;
+    padding-left: 15px;
+}
+
+#firstPanel{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    font-size: 25px;
+    height: 500px;
+    color: white;
+}
+
+.leftFirstPanel{
+    display: flex;
+    flex-direction: column;
+}
+
+#rightFirstPanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 57, 57);
+    height: 200px;
+    width: 500px;
+    font-size: 20px;
+}
+
+#secondPanel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    font-size: 25px;
+}
+
+.img{
+    border: 4px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.imgClass {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 200px;
+}
+
+.imgText{
+    height: 200px;
+    margin: 5px 20px 0px 20px;
+    padding: 0 30px 0 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+#thirdPanel{
+    background-color:gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    font-size: 25px;
+}
+
+#secondQuote{
+    display: flex;
+    margin-left: auto;
+}
+
+#fourthPanel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    font-size: 25px;
+}
+
+.fourthFlexBox{
+    background-color: rgb(60, 105, 121);
+    padding: 100px;
+    border-radius: 25px;
+    color:white;
+}
+
+.leftFourthPanel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.bottomSignUp{
+    font-size: 20px;
+}
+
+footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    font-size: 15px;
+    color: white;
+}
